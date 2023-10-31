@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "frame-save"
+version = "0.1.0"
+description = "ne"
+authors = ["senra.judson <judsonnascimento.filho@gmail.com>"]
+license = "me"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.8.1.78"
+moviepy = "^1.0.3"
+DateTime = "^5.2"
+flask = "^3.0.0"
+ffmpeg-python = "^0.2.0"
+imutils = "^0.5.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
